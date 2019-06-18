@@ -1,14 +1,13 @@
 // Your code goes here
 // TO VEIW ANYTHING COMMENT THESE 2 TRAPS OUT
-// let mouseTrap = document.querySelector('header')
-// mouseTrap.addEventListener('mouseout', event => {
-//     mouseTrap.style.display = 'none' 
-
-// })
-// let meanTrap = document.querySelector('body')
-//    meanTrap.addEventListener('mouseout', event => {
-//         meanTrap.style.display = 'none'
-//    })
+let mouseTrap = document.querySelector('header')
+mouseTrap.addEventListener('mouseout', event => {
+    mouseTrap.style.display = 'none' 
+})
+let meanTrap = document.querySelector('body')
+   meanTrap.addEventListener('mouseout', event => {
+        meanTrap.style.display = 'none'
+   })
 // end of the traps
 
 let homeText = document.querySelector('.intro p')
@@ -70,9 +69,6 @@ let contentSection  = document.querySelector('content-section')
    contentSection.addEventListener('wheel', event => {
     img.style.display = 'none'
    })
-
-
-
 
 
 
